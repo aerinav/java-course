@@ -2,7 +2,7 @@ public class VariabelDanTipeData2 {
     public static void main(String[] args) {
         // Tipe data non-primitif dan kelas wrapper
         String str = "Hello World";         // Tipe data String (Kumpulan karakter)
-        int[] arrayInt = {1, 2, 3, 4, 5};   // Tipe data Array (Kumpulan elemen dengan tipe data yang sama)
+        String[] arrayStr = {"Agus", "Budi", "Ramadhan", "Deni", "John Doe"};   // Tipe data Array (Kumpulan elemen dengan tipe data yang sama)
 
         // Kelas Wrapper (Setiap tipe data primitif memeiliki kelas wrapper)
         Byte angkaMini = 127;                   // Kelas Wrapper byte (Bilangan bulat mini)
@@ -23,6 +23,6 @@ public class VariabelDanTipeData2 {
         System.out.println("Nilai dari variabel 'karakter' adalah: " + karakter);
         System.out.println("Nilai dari variabel 'isBenar' adalah: " + isBenar);
         System.out.println("Nilai dari variabel 'str' adalah: " + str);
-        System.out.println("Nilai dari variabel 'arrayInt' adalah: " + arrayInt);
+        System.out.println("Nilai dari variabel 'arrayInt' adalah: " + arrayStr);
     }
 }

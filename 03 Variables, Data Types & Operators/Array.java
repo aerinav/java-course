@@ -2,8 +2,8 @@ public class Array {
     public static void main(String[] args) {
         // Array Satu Dimensi
         // Inisialisasi Lansung
-        int[] array1 = {5, 8, 11, 9, 1};
-        System.out.println(array1[2]);
+        int[] array1 = {5, 8, 11, 9, 19};
+        System.out.println(array1[2]); 
 
         // Inisialisasi Manual
         int[] array2 = new int[2];

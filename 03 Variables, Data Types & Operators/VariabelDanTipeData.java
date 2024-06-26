@@ -7,6 +7,7 @@ public class VariabelDanTipeData {
         long angkaBesar = 76587787L;             // Tipe data long (Bilangan bulat besar) Range (-2^(63) to 2^(63)-1) Bit (64)
         float angkaDesimal = 3.14f;             // Tipe data float (Bilangan desimal) Bit (32)
         double angkaDesimalBesar = 3.14159265;  // Tipe data double (Bilangan desimal lebih presisi) Bit (64)
+        
         char karakter = 'A';                    // Tipe data char (Karakter tunggal)
         boolean isBenar = true;                 // Tipe data boolean (True atau False)
 
