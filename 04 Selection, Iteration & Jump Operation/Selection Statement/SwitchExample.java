@@ -1,9 +1,13 @@
+import java.util.Scanner;
 public class SwitchExample {
     public static void main(String[] args) {
-        int day = 3;
+        Scanner scanner = new Scanner(System.in);
+        
+        int day = scanner.nextInt();
+
         switch (day) {
             case 1:
-                System.out.println("Monday");
+                System.out.println("monday");
                 break;
             case 2:
                 System.out.println("Tuesday");
@@ -27,5 +31,8 @@ public class SwitchExample {
                 System.out.println("Invalid day");
                 break;
         }
+
+        scanner.close();
     }
 }
+

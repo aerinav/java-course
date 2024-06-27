@@ -1,6 +1,6 @@
 public class ForLoopExample3 {
     public static void main(String[] args) {
-        String[] fruits = {"Apple", "Banana", "Cherry", "Date"};
+        String[] fruits = {"Apple", "Banana", "Cherry", "Date", "Durian"};
 
         // Menggunakan for biasa
         for (int i = 0; i < fruits.length; i++) {
@@ -8,8 +8,8 @@ public class ForLoopExample3 {
         }
 
         // Menggunakan foreach
-        for (String fruit : fruits) {
-            System.out.println("Fruit: " + fruit);
+        for (String buah : fruits) {
+            System.out.println("Buah: " + buah);
         }
     }
 }

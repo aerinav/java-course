@@ -5,5 +5,11 @@ public class WhileLoopExample {
             System.out.println("Iterasi: " + i);
             i++;
         }
+
+        int j = 10;
+        while (j >= 0) {
+            System.out.println("Iterasi: " + j);
+            j--;
+        }
     }
 }

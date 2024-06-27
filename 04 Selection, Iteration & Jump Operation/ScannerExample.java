@@ -13,7 +13,7 @@ public class ScannerExample {
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
         
-        // Mengambil input berupa double
+        // Mengambil input berupa doublejaba
         System.out.print("Enter your height (in cm): ");
         double height = scanner.nextDouble();
         

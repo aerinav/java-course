@@ -1,7 +1,7 @@
 public class NestedIf {
     public static void main(String[] args) {
         int score = 85;
-
+        
         if (score >= 90) {
             System.out.println("Grade: A");
         } else {

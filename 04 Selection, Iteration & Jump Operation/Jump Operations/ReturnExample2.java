@@ -1,6 +1,6 @@
 public class ReturnExample2 {
     public static void main(String[] args) {
-        int score = 85;
+        int score = 85; // Contoh skor
         
         String grade = getGrade(score);
         System.out.println("Grade: " + grade);
