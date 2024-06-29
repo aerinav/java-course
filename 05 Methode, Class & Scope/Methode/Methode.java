@@ -2,6 +2,7 @@ public class Methode {
     public static void main(String[] args) {
         sayHello();  // Memanggil methode sayHello
         greetUser("John Doe"); // Memanggil methode greetUser()
+        System.out.println(greetUser2("Agus")); 
 
         int result = add(5, 3);  // Memanggil metode add() dengan dua parameter
         System.out.println("Hasil penjumlahan: " + result);

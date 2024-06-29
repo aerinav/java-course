@@ -1,7 +1,9 @@
 package Class;
 public class ClassExample2 {
     public static void main(String[] args) {
-        int add = Calculator.add(10, 5);
+        Calculator calculator = new Calculator();
+
+        int add = calculator.add(10, 5);
         System.out.println("Hasil penjumlahan: " + add);
 
         int substract = Calculator.substract(20, 5);
@@ -19,7 +21,7 @@ public class ClassExample2 {
 }
 
 class Calculator {
-    public static int add(int a, int b) {
+    public int add(int a, int b) {
         return a + b;
     }
 

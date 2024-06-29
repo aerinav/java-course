@@ -10,7 +10,7 @@ public class ClassExample {
 
         // Struktur Dasar Class
         // acces modifier className {
-            // body of the method
+            // body of the class
         // }
 
         // Acces

@@ -7,18 +7,7 @@ public class BilanganPrima {
         System.out.print("Masukkan bilangan: ");
         int number = scanner.nextInt();
 
-        boolean isPrime = true;
-
-        if (number <= 1) {
-            isPrime = false;
-        } else {
-            for (int i = 2; i < number; i++) {
-                if (number % i == 0) {
-                    isPrime = false;
-                    break;
-                }
-            }
-        }
+        boolean isPrime = checkPrime(number);
 
         if (isPrime) {
             System.out.println(number + " adalah bilangan prima.");
@@ -27,5 +16,19 @@ public class BilanganPrima {
         }
 
         scanner.close();
+    }
+
+    public static boolean checkPrime(int number) {
+        if (number <= 1) {
+            return false;
+        } else {
+            for (int i = 2; i < number; i++) {
+                if (number % i == 0) {
+                    return false;
+                }
+            }
+        }
+
+        return true;
     }
 }
